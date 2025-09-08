@@ -1,11 +1,10 @@
 import { IdAttributePlugin, InputPathToUrlTransformPlugin, HtmlBasePlugin } from "@11ty/eleventy";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginNavigation from "@11ty/eleventy-navigation";
-import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
-import markdownit from 'markdown-it'
-import markdownItFigures from "markdown-it-image-figures";
-
+import markdownIt from 'markdown-it'
 import pluginFilters from "./_config/filters.js";
+import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
+import markdownItFigures from "markdown-it-image-figures";
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function(eleventyConfig) {
@@ -57,26 +56,25 @@ export default async function(eleventyConfig) {
 	eleventyConfig.addPlugin(HtmlBasePlugin);
 	eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
 
-  const md = markdownit({
+  const md = markdownIt({
     html: true,
     linkify: true,
     typographer: true
   })
 
   eleventyConfig.setLibrary("md", md )
-
+  
     // Add support for image captions
   md.use(markdownItFigures, {
     figcaption: 'title',
   })
-
 
 	// Image optimization: https://www.11ty.dev/docs/plugins/image/#eleventy-transform
 	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
 		// Output formats for each image.
 		formats: ["avif", "webp", "auto"],
 
-		// widths: ["auto"],
+		widths: ["300"],
 
 		failOnError: false,
 		htmlOptions: {
@@ -92,6 +90,7 @@ export default async function(eleventyConfig) {
 		},
 	});
 
+
 	// Filters
 	eleventyConfig.addPlugin(pluginFilters);
 
@@ -104,6 +103,12 @@ export default async function(eleventyConfig) {
 	eleventyConfig.addShortcode("currentBuildDate", () => {
 		return (new Date()).toISOString();
 	});
+
+	eleventyConfig.addShortcode("fig", function(alt, src, target, height, width, caption){
+		return "<figure>" +
+		"<a href=" + target + "><img alt=" + alt + " loading=\"lazy\" src=" + src + " width=" + width + " height=" + height +"></a>"+
+  		"<figcaption>"+caption+"</figcaption>"+
+		"</figure>"})
 
 	// Features to make your build faster (when you need them)
 

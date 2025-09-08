@@ -5,6 +5,7 @@ const eleventyNavigation = {
 };
 
 const numberOfLatestPostsToShow = 3;
+const eleventyExcludeFromCollections = true;
 ---
 Lola and Mike have retired from the Wabbit Wangling business, this site now has trip and event reports, and the occasional "how-to" notes.
 

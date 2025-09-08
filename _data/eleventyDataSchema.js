@@ -11,3 +11,4 @@ export default function(data) {
 		throw fromZodError(result.error);
 	}
 }
+

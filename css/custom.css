@@ -7,3 +7,48 @@
 	white-space: nowrap;
 	width: 1px;
 }
+
+figure {
+  inline-size: fit-content;
+  margin-inline: auto;
+  border: 2px solid black;
+  padding: 10px; 
+}
+
+/* Reduce nav side on mobile */
+@media only screen and (max-width: 720px) {
+	figure {
+		inline-size: fit-content;
+		margin-inline: auto;
+		border: none;
+		padding: none; 
+	}
+}
+
+  header nav a.current {
+    background: none;
+  }
+}
+
+/* To style the image specifically within the figure */
+figure img {
+  max-width: 100%; /* Ensures the image scales within the figure */
+}
+
+/* To style the figcaption */
+figcaption {
+  font-style: italic;
+  contain: inline-size;
+}
+
+.nav-left {
+    float: left;
+}
+
+.nav-left ul li {
+    float: left;
+}
+
+.nav-right ul li {
+    float: right;
+}

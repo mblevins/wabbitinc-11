@@ -5,7 +5,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>{{ title or metadata.title }}</title>
 		<meta name="description" content="{{ description or metadata.description }}">
-		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
 		<meta name="generator" content="{{ eleventy.generator }}">
 		{#-
 		Plain-text bundles are provided via the `eleventy-plugin-bundle` plugin:
@@ -26,9 +25,6 @@
 		{#- <style>{% getBundle "css" %}</style> #}
 		{#- Renders the CSS bundle using a separate file, if you can't set CSP directive style-src: 'unsafe-inline' #}
 		<link rel="stylesheet" href="{% getBundleFileUrl "css" %}">
-
-		{#- Add the heading-anchors web component to the JavaScript bundle #}
-		<script type="module">{% include "node_modules/@zachleat/heading-anchors/heading-anchors.js" %}</script>
 	</head>
 	<body>
 		<a href="#main" id="skip-link" class="visually-hidden">Skip to main content</a>
@@ -37,13 +33,21 @@
 			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
 			<nav>
 				<h2 class="visually-hidden">Top level navigation menu</h2>
-				<ul class="nav">
+				<ul class="nav-left">
+					<li class="nav-item"><a href="/">Wabbitinc</a>
+				</ul>
+				<ul class="nav-right">
 				{%- for entry in collections.all | eleventyNavigation %}
 					<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
 				{%- endfor %}
 				</ul>
 			</nav>
-			<h1>{%- if title %}{{ title }}{%- else %}{{ metadata.title }}{%- endif %}</h1>
+
+
+
+
+			
+			<!-- <h1>{%- if title %}{{ title }}{%- else %}{{ metadata.title }}{%- endif %}</h1> -->
    		<p>{% if description %}{{ description }}{% endif %}</p>
 		</header>
 
@@ -54,7 +58,7 @@
 		</main>
 
 		<footer>
-			<p><em>Built with <a href="https://www.11ty.dev/">{{ eleventy.generator }}</a> and <a href="https://simplecss.org">Simple.css</a></em></p>
+			<p><small><em>Built with <a href="https://www.11ty.dev/">{{ eleventy.generator }}</a> and <a href="https://simplecss.org">Simple.css</a></em></small></p>
 		</footer>
 
 		<!-- This page `{{ page.url }}` was built on {% currentBuildDate %} -->

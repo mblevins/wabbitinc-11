@@ -27,6 +27,4 @@ We went to the Astoria Tower
 <p>
 {% fig "M_IMG_2549.jpg", "https://photos.smugmug.com/Travel/2025-Astoria/i-5Hcn3XT/0/M6SSCWM8BZWcjPtcht39Pwc7QBQm2h3NRRCTnPnTN/M/M_IMG_2549-M.jpg", "https://photos.smugmug.com/Travel/2025-Astoria/i-5Hcn3XT/0/Mkm9SPdzt9H9s5kBKJqSbt28NJJqCj2GhwfjSQ5MJ/X3/M_IMG_2549-X3.jpg", 450, 600, "Hello Down There!" %}
 <p>
-{% fig "L_IMG_6467.jpg", "https://photos.smugmug.com/Travel/2025-Astoria/i-K2XWCTF/0/KS7ZrgphNTjL5h2FwHH5pP7S4VbncwSQPmdvfb6n9/M/L_IMG_6467-M.jpg", "https://photos.smugmug.com/Travel/2025-Astoria/i-K2XWCTF/0/MHbCzzBrMmS9xXDcZCdNPjdcCt3G9gdJKBbSVTvM2/X3/L_IMG_6467-X3.jpg", 450, 600, "Some nice views" %}
-<p>
 {% fig "M_IMG_2547.jpg", "https://photos.smugmug.com/Travel/2025-Astoria/i-Lb8dZg7/0/LWJmNJDSsxVCb2PRFgBSMF8cJVN4CxFrfHqS96GdF/M/M_IMG_2547-M.jpg", "https://photos.smugmug.com/Travel/2025-Astoria/i-Lb8dZg7/0/L8KJTs2bpCc7kCjvvZp9VZgdgL2fXsZPZbj59dTwX/X3/M_IMG_2547-X3.jpg", 450, 600, "Bubbles!" %}

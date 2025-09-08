@@ -1,7 +1,7 @@
 ---
 title: '2025 Astoria'
 date: 2025-06-10
-draft: true
+draft: false
 tags: ['Trips']
 summary: "Trip to Astoria, OR"
 ---

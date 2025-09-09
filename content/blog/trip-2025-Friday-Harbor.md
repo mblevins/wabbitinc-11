@@ -1,6 +1,6 @@
 ---
 title: 2025 Friday Harbor
-date: 2025-08-18
+date: 2025-07-20
 draft: false
 tags: ['Trips']
 ---
@@ -20,7 +20,7 @@ We stayed in Port Townsend and had dinner with our friend Sandy, staying in the 
 
 ## Friday Harbor
 
-We parked the car at the hotel, and took a [whale watching](pugetsoundexpress.com) boat to Friday Harbor. The have a full day tour with lunch at Friday Harbor, so we could book two half days (morning and afternoon) to get there and back.
+We parked the car at the hotel, and took a [whale watching](pugetsoundexpress.com) boat to Friday Harbor. They have a full day tour with lunch at Friday Harbor, so we could book two half days (morning and afternoon) to get there and back.
 
 {% fig "M_IMG_2660_edited.jpg", "https://photos.smugmug.com/Travel/2025-Friday-Harbor/i-kGVdssS/0/NgHdr4KvvqLvQwjXcpR23s2ZtjzThMCqgWW5MpTrz/O/M_IMG_2660_edited.jpg", "https://photos.smugmug.com/Travel/2025-Friday-Harbor/i-kGVdssS/0/NgHdr4KvvqLvQwjXcpR23s2ZtjzThMCqgWW5MpTrz/O/M_IMG_2660_edited.jpg", 385, 562, "The great Grainy Puffin" %}
 

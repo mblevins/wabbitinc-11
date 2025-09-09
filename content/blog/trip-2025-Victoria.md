@@ -43,7 +43,7 @@ There were secret rooms with lots of Grateful Dead themes
 <p>
 
 <p>
-{% fig "M_IMG_2580.jpg", "https://photos.smugmug.com/Travel/2025-Victoria/i-rnDJKwG/0/MwPps6Z3FNM6QHTkGVXHts9L6XfNw2RxJs66gBN5x/M/M_IMG_2580-M.jpg", "https://photos.smugmug.com/Travel/2025-Victoria/i-rnDJKwG/0/MjkWKqDs6vFMndPTH374ZvnKPtjLdT9hWqPXNM2TR/O/M_IMG_2580.jpg", 450, 338, "Sunshine daydream was playing in speaker in the hidden room" %}
+{% fig "M_IMG_2580.jpg", "https://photos.smugmug.com/Travel/2025-Victoria/i-rnDJKwG/0/MwPps6Z3FNM6QHTkGVXHts9L6XfNw2RxJs66gBN5x/M/M_IMG_2580-M.jpg", "https://photos.smugmug.com/Travel/2025-Victoria/i-rnDJKwG/0/MjkWKqDs6vFMndPTH374ZvnKPtjLdT9hWqPXNM2TR/O/M_IMG_2580.jpg", 450, 338, "Sunshine daydream was playing from a speaker in the hidden room" %}
 
 ## Port Angelas
 

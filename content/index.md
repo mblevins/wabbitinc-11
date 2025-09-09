@@ -14,5 +14,5 @@ There are no incorporated Wabbits here.
 If you're looking for the old Silver Fiddle Ranch web site, it is archived [here](/sfr/home.md)
 If you're looking for the old lolablevins web site, Lola is retired and no longer accepting clients. 
 
-If you're at our house, there's a link to a 
-[Calibre](http://calibre-house.wabbitinc.com) server, but it is only accessible from the private house network
+If you're at our house, here's a link to a 
+[Calibre](http://calibre-house.wabbitinc.com) server, it is only accessible from the private house network

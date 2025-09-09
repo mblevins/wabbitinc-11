@@ -11,7 +11,7 @@ Lola and Mike have retired from the Wabbit Wangling business, this site now has 
 
 There are no incorporated Wabbits here. 
 
-If you're looking for the old Silver Fiddle Ranch web site, it is archived [here](/sfr/home.md)
+If you're looking for the old Silver Fiddle Ranch web site, it is archived [here](/sfr/home.md). 
 If you're looking for the old lolablevins web site, Lola is retired and no longer accepting clients. 
 
 If you're at our house, here's a link to a 

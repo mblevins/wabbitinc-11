@@ -2,6 +2,7 @@
 title: 2025 Portland Spirit
 date: 2025-09-30
 draft: false
+layout: "/layouts/post.njk"
 tags: ['Trips']
 ---
 <!-- Tripit URL: urn://missing.com -->

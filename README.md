@@ -1,6 +1,8 @@
 # Wabbit Inc
 
-Wabbitinc as an eleventy site. Shamelessly stolen from https://github.com/11ty/eleventy-base-blog.git .
+Wabbitinc as an eleventy site. Shamelessly stolen from https://github.com/11ty/eleventy-base-blog.git 
+
+The css was stolen from https://simplecss.org and then heavily modified
 
 ## To test locally
 

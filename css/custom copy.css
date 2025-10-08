@@ -80,6 +80,29 @@ body > * {
   grid-column: 2;
 }
 
+/* Make the header bg full width, but the content inline with body */
+body > header {
+  background-color: var(--accent-bg);
+  border-bottom: var(--border-width) solid var(--border);
+  text-align: center;
+  padding: 0 0.5rem 2rem 0.5rem;
+  grid-column: 1 / -1;
+}
+
+body > header > *:only-child {
+  margin-block-start: 2rem;
+}
+
+body > header h1 {
+  max-width: 1200px;
+  margin: 1rem auto;
+}
+
+body > header p {
+  max-width: 40rem;
+  margin: 1rem auto;
+}
+
 /* Add a little padding to ensure spacing is correct between content and header nav */
 main {
   padding-top: 1.5rem;
@@ -96,37 +119,29 @@ body > footer {
 
 /* Format headers */
 h1 {
-  font-size: 2rem;
-}
-
-/* lets the date uddle to the title */
-h1.h1-post {
-	margin-bottom: 0;
-}
-p.p1-post {
-	margin-top: 0;
+  font-size: 3rem;
 }
 
 h2 {
-  font-size: 1.8rem;
+  font-size: 2.6rem;
   margin-top: 3rem;
 }
 
 h3 {
-  font-size: 1.2rem;
+  font-size: 2rem;
   margin-top: 3rem;
 }
 
 h4 {
-  font-size: 1.0rem;
+  font-size: 1.44rem;
 }
 
 h5 {
-  font-size: 1.0rem;
+  font-size: 1.15rem;
 }
 
 h6 {
-  font-size: 1.0rem;
+  font-size: 0.96rem;
 }
 
 p {
@@ -145,6 +160,25 @@ h3 {
   line-height: 1.1;
 }
 
+/* Reduce header size on mobile */
+@media only screen and (max-width: 720px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2.1rem;
+  }
+
+  h3 {
+    font-size: 1.75rem;
+  }
+
+  h4 {
+    font-size: 1.25rem;
+  }
+}
+
 /* Format links & buttons */
 a,
 a:visited {
@@ -158,26 +192,22 @@ a:hover {
 /* Header */
 header {
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: center;
+    padding: 20px 50px;
     box-shadow: 0 1px 8px #ddd;
-	background-color: var(--accent-bg);
-	border-bottom: var(--border-width) solid var(--border);
-	text-align: left;
-	padding: 0 0.5rem 0.5rem 0.5rem;
-	grid-column: 1 / -1;
 }
 
 #nav-title {
-    font-size: 1.0em;
-	text-align: left;
-	max-width: 600px;
+    margin-right: auto;
+    font-size: 1.5em;
+	align-content: left;
 }
 
 header li {
     list-style: none;
     display: inline-block;
-    padding: 0 0.5rem;
+    padding: 0 20px;
 }
 
 header a {
@@ -188,6 +218,21 @@ header a {
 
 header a:hover {
     color: #b2dfdb;
+}
+
+
+/* Reduce nav side on mobile */
+@media only screen and (max-width: 720px) {
+  header nav a {
+    border: none;
+    padding: 0;
+    text-decoration: underline;
+    line-height: 1;
+  }
+
+  header nav a.current {
+    background: none;
+  }
 }
 
 /* Format tables */

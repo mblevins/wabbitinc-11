@@ -2,6 +2,7 @@
 title: 2025 Seattle
 date: 2025-08-19
 draft: false
+layout: "/layouts/post.njk"
 tags: ['Trips']
 ---
 <!-- Tripit URL: https://www.tripit.com/app/trips/3462cb38-389f-9000-0001-000015ecb4f3 -->

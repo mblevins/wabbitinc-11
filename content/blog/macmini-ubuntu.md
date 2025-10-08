@@ -2,6 +2,7 @@
 title: 'Mac Mini 2018 Linux'
 date: 2024-11-08
 draft: false
+layout: "/layouts/post.njk"
 tags: ['Howto']
 ---
 

@@ -2,6 +2,7 @@
 title: 'Koreader on Kobo'
 date: 2025-04-04
 draft: false
+layout: "/layouts/post.njk"
 tags: ['Howto']
 ---
 

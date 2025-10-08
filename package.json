@@ -32,8 +32,5 @@
 		"zod-validation-error": "^3.4.1",
         "markdown-it": "^14.1.0",
 	    "markdown-it-image-figures": "^2.1.1"
-	},
-	"dependencies": {
-		"simpledotcss": "^2.3.7"
 	}
 }

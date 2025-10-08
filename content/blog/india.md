@@ -2,6 +2,7 @@
 title: '2006-2007 India'
 date: 2005-11-15
 draft: false
+layout: "/layouts/post.njk"
 tags: ['Trips']
 ---
 

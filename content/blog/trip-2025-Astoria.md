@@ -3,6 +3,7 @@ title: '2025 Astoria'
 date: 2025-06-10
 draft: false
 tags: ['Trips']
+layout: "/layouts/post.njk"
 summary: "Trip to Astoria, OR"
 ---
 

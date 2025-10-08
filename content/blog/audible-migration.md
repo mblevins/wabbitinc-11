@@ -2,6 +2,7 @@
 title: 'Audible Migration'
 date: 2024-11-02
 draft: true
+layout: "/layouts/post.njk"
 tags: ['Howto']
 ---
 

@@ -2,6 +2,7 @@
 title: '2011 BC Kayak Go With the Flow'
 date: 2011-08-17
 draft: false
+layout: "/layouts/post.njk"
 tags: ['Trips']
 ---
 

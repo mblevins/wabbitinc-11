@@ -2,6 +2,7 @@
 title: '2012 Eppie''s Great Race - Logistics'
 date: 2012-07-25
 draft: false
+layout: "/layouts/post.njk"
 tags: ['Events']
 ---
 

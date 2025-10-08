@@ -2,6 +2,7 @@
 title: '2010 Desolation Wilderness'
 date: 2010-07-19
 draft: false
+layout: "/layouts/post.njk"
 tags: ['Trips']
 ---
 

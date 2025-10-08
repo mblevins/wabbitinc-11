@@ -2,6 +2,7 @@
 title: 2025 Friday Harbor
 date: 2025-07-20
 draft: false
+layout: "/layouts/post.njk"
 tags: ['Trips']
 ---
 <!-- Tripit URL: https://www.tripit.com/app/trips/3e940700-fe5a-9000-0001-000015db32b4 -->

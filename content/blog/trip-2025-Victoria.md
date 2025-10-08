@@ -2,6 +2,7 @@
 title: 2025 Victoria
 date: 2025-06-22
 draft: false
+layout: "/layouts/post.njk"
 tags: ['Trips']
 ---
 <!-- Tripit URL: https://www.tripit.com/app/trips/974d830c-d530-9000-0001-000015ac452b -->

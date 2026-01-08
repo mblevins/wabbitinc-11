@@ -69,6 +69,8 @@ I think Israel, Domithilde, Israel (Jr) and Thomas may have been in the US at th
 
 ## 1872 Thomas (G grandfather) marries Turrenne (G grandmother)
 
+Source Transcription:
+
 ```
 Name	Thos Gamlin
 Gender	Male
@@ -88,6 +90,8 @@ Spouse	T L Purcell
 
 (Thomas Gamlin's father was Thomas Israel but generally went by Israel because his father was named Thomas, so Thomas Jr looks reasonable for my G grandfather)
 
+Source Transcription:
+
 ```
 Name	Thomas Gamlin Jr
 Record Type	Naturalization Declaration
@@ -98,6 +102,8 @@ Relation to Head	Self (Head)
 ```
 
 ## 1892 Israel (grandfather) born
+
+Source Transcription:
 
 ```
 Name	Israel Gamlin
@@ -116,6 +122,8 @@ Death Place	Fresno
 This shows Thomas (G grandfather), wife Turrenne (G grandmother) and son Israel (grandfather). 
 
 Transcription of immigration year shows 1807, that looks like a transcription error of 1857. Family history says they moved to the US that year.  
+
+Source Transcription:
 
 ```
 Name	Thomas Gamlin
@@ -155,6 +163,8 @@ Source Page: 6, 7
 
 This is a death index, not certificate
 
+Source Transcription:
+
 ```
 Name	Thomas Gamlin
 Birth Year	abt 1850
@@ -164,7 +174,7 @@ Age at Death	83
 Death Place	Placer, California, USA
 ```
 
-Ancestry.com Source Detail: 
+Ancestry.com Source Detail: California, U.S., Death Index, 1905-1939
 
 ## 1925 Israel Gamlin (grandfather) Marries Mabel Foster (grandmother)
 

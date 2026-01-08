@@ -101,6 +101,9 @@ Description	Naturalizations, Vol B,D, 1875-1888, 1892-1896
 Relation to Head	Self (Head)
 ```
 
+Ancestry.com Source Title: California, U.S., State Court Naturalization Records, 1850-1986
+Source Details: California State Archives; Sacramento, California; Film Number: 1548337; Film Description: Fresno County Declaration of Intention, Vol. 25, 1929-1934, Naturalizations, Vol. B,D, 1875-1888, 1892-1896
+
 ## 1892 Israel (grandfather) born
 
 Source Transcription:

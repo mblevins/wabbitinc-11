@@ -55,7 +55,7 @@ Now use Calibre to "save to folder" in the KOReader directory.
 
 verify: After disconnecting, there should be no files shown in nickel "home view" and using Koreader from the nickel menu should show all the downloaded books
 
-# Step 5 KOReader tweeks (optional)
+# Step 5: KOReader tweeks (optional)
 
 edit /Volumes/KOBOeReader/.adds/koreader/settings.reader.lua and add:
 (you need to run koreader once for this file to show up)
@@ -68,6 +68,7 @@ edit /Volumes/KOBOeReader/.adds/koreader/settings.reader.lua and add:
 
 mkdir /Volumes/KOBOeReader/KOReader 
 
+# Step 6: 
 
 to sync:
 

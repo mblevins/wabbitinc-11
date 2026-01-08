@@ -53,7 +53,7 @@ export default async function(eleventyConfig) {
 
   const md = markdownIt({
     html: true,
-    linkify: true,
+    linkify: false,
     typographer: true
   })
 

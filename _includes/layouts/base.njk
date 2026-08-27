@@ -19,18 +19,18 @@
 			<nav>
 				<ul>
 					{%- for entry in collections.all | eleventyNavigation %}
-						<li class="nav-item"q><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
+						<li><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
 					{%- endfor %}
 				</ul>
 			</nav>
 		</header>
 
-		<main id="main" class="container">
+		<main id="main">
 			{{ content | safe }}
 		</main>
 
-		<footer class="container">
-			<p><small><em>Built with <a href="https://www.11ty.dev/">{{ eleventy.generator }}>
+		<footer>
+			<p><small><em>Built with <a href="https://www.11ty.dev/">{{ eleventy.generator }}</em></small></p>
 		</footer>
 
 		<!-- This page `{{ page.url }}` was built on {% currentBuildDate %} -->

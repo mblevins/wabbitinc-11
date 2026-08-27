@@ -1,9 +1,9 @@
 import { IdAttributePlugin, InputPathToUrlTransformPlugin, HtmlBasePlugin } from "@11ty/eleventy";
+import { eleventyImageTransformPlugin } from '@11ty/eleventy-img';
 import pluginNavigation from "@11ty/eleventy-navigation";
 import markdownIt from 'markdown-it'
 import pluginFilters from "./_config/filters.js";
-import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
-
+import Image from "@11ty/eleventy-img";
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function(eleventyConfig) {
@@ -77,11 +77,11 @@ export default async function(eleventyConfig) {
 		return "<figure>" +
 		"<a href=" + target + "><img alt=" + alt + " loading=\"lazy\" src=" + src + " width=" + width + " height=" + height +"></a>"+
   		"<figcaption>"+caption+"</figcaption>"+
-		"</figure>"})
+		"</figure>"
+	});
 
-	eleventyConfig.addPlugin(eleventyImageTransformPlugin);
 
-	// Features to make your build faster (when you need them)
+  	// Features to make your build faster (when you need them)
 
 	// If your passthrough copy gets heavy and cumbersome, add this line
 	// to emulate the file copy on the dev server. Learn more:

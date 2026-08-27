@@ -99,7 +99,7 @@ h1 {
   font-size: 2rem;
 }
 
-/* lets the date uddle to the title */
+/* lets the date huddle to the title */
 h1.h1-post {
 	margin-bottom: 0;
 }
@@ -161,15 +161,15 @@ header {
     justify-content: flex-start;
     align-items: center;
     box-shadow: 0 1px 8px #ddd;
-	background-color: var(--accent-bg);
-	border-bottom: var(--border-width) solid var(--border);
-	text-align: left;
-	padding: 0 0.5rem 0.5rem 0.5rem;
-	grid-column: 1 / -1;
-}
+    background-color: var(--accent-bg);
+    border-bottom: var(--border-width) solid var(--border);
+    text-align: left;
+    padding: 0 0.5rem 0.5rem 0.5rem;
+    grid-column: 1 / -1;
+  }
 
 #nav-title {
-    font-size: 1.0em;
+  font-size: 1.0em;
 	text-align: left;
 	max-width: 600px;
 }
@@ -183,7 +183,6 @@ header li {
 header a {
     text-decoration: none;
     color: #555;
-    transition: all 0.3s ease 0s;
 }
 
 header a:hover {

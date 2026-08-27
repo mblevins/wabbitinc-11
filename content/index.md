@@ -7,12 +7,9 @@ const eleventyNavigation = {
 const numberOfLatestPostsToShow = 0;
 const eleventyExcludeFromCollections = true;
 ---
-Lola and Mike have retired from the Wabbit Wangling business, this site now has trip and event reports, and the occasional "how-to" notes.
+Lola and Mike have retired from the Wabbit Wangling business, but the domain name lives on. This site now has trip and event reports, the occasional "how-to" notes, and some scanned family archives. 
 
 There are no incorporated Wabbits here. 
 
 If you're looking for the old Silver Fiddle Ranch web site, it is archived [here](/sfr/home.md). 
 If you're looking for the old lolablevins web site, Lola is retired and no longer accepting clients. 
-
-If you're at our house, here's a link to a 
-[Calibre](http://calibre-house.wabbitinc.com) server, it is only accessible from the private house network

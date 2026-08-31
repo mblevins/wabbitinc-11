@@ -1,5 +1,7 @@
 #! /bin/bash
 # process a scan directory
+# -t -- add a transcribe
+# -o -- only transcribe, don't do anything else
 
 # some of this don't have flags, set flags for script development
 DO_RCLONE=1
@@ -7,14 +9,20 @@ DO_SIP=1
 DO_GALLERY=1
 DO_TRANSCRIBE=0
 
-while getopts ":t" opt; do
+while getopts ":to" opt; do
   case ${opt} in
     t ) # process option t
-      DO_TRANSCRIBE=1
-      ;;
+        DO_TRANSCRIBE=1
+        ;;
+    o ) # process option o
+        DO_RCLONE=0
+        DO_SIP=0
+        DO_GALLERY=0
+        DO_TRANSCRIBE=1
+        ;;
     \? ) 
-      echo "Usage: $0 [-t]"
-      ;;
+        echo "Usage: $0 [-to]"
+        ;;
   esac
 done
 shift $((OPTIND -1))

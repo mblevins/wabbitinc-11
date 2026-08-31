@@ -1,6 +1,5 @@
 ---
-title: Hand Written Notes about Thomas Gamlin 
-date: 2026-08-25
+title: Newspaper Article from Lizzie McGee
 draft: false
 layout: "/layouts/post.njk"
 tags: ['Genealogy']

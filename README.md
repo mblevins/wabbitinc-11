@@ -20,12 +20,12 @@ Scans are pushed to a cloudflare bucket. To process a set of scans:
 
 - Scan the pictures with a camera
 - Export the pictures to a scan directory /scans/scan{date}{seq-num}
-- Create a post in the /content/scans directory
-- Run process_scan.sh scan{date}{seq-num} (use -t if it should be transcribed)
+- Create a matching content/scans directory and copy content/scans/scan26082501/index.md. An images and optionally transcription snippet will be generated (if it shouldn' be transcribed, remove the transcription include)
+- Run *process_scan.sh -t scan{date}{seq-num}* (remove the -t if it shouldn't be transcribed)
 
 ## Production
 
-This is hosted at cloudflare using pages.
+This is hosted at cloudflare using pages. Check it in and it should build there. If wabbitinc.com isn't updated within a few minutes, check the build status at cloudflare. 
 
 ## Some handy links
 
